@@ -7,11 +7,37 @@
 - `index.html` — área de membros completa.
 - `README.md` — orientações de publicação e personalização.
 
+## Atualização desta versão
+
+Foram mantidos o visual, a estrutura e as aulas já existentes e acrescentado o **Módulo 5 — Vendas, Embalagens e Negócio** com 7 novas aulas:
+
+1. Embalagem para Bolo Gelado
+2. Como Fazer Etiquetas e Adesivos pelo Celular com o Canva
+3. Aula de Precificação
+4. Como Vender pelo Instagram
+5. Análise de Perfis do Instagram
+6. Como Vender pelo WhatsApp
+7. Aula Extra — Como Começar a Vender e Receber Encomendas pelo iFood
+
+A área agora contém **27 videoaulas distribuídas em 5 módulos**.
+
+## Ofertas complementares dentro das aulas
+
+Foram adicionados botões contextuais dentro do player, sem alterar o visual principal da plataforma:
+
+- Nas aulas relacionadas a **embalagem/etiquetas**, o botão oferece o **Pack de 30 Etiquetas Editáveis**:
+  `https://pay.cakto.com.br/3atx3oo_1041160`
+
+- Na **Aula de Precificação**, o botão oferece a **Calculadora Automática de Precificação e Lucro**:
+  `https://pay.cakto.com.br/ajhxeao_1039693`
+
+Os botões aparecem apenas nas aulas que possuem uma oferta relacionada.
+
 ## O que está incluído
 
 - Visual premium escuro com detalhes em rosa e dourado.
 - Layout responsivo para celular, tablet e computador.
-- Catálogo com **20 videoaulas diferentes**, distribuídas em quatro módulos.
+- Catálogo com **27 videoaulas diferentes**, distribuídas em cinco módulos.
 - Capas automáticas usando as miniaturas oficiais dos vídeos do YouTube.
 - Player em janela modal, sem retirar o aluno da área de membros.
 - Busca por nome, sabor ou categoria.
@@ -27,6 +53,7 @@
 2. Marmitas Lucrativas
 3. Fatias Gourmet
 4. Cremosos e Especiais
+5. Vendas, Embalagens e Negócio
 
 ## Publicação no GitHub Pages
 
@@ -48,7 +75,7 @@ As capas são carregadas a partir das miniaturas públicas do YouTube. Os vídeo
 
 ## Aula com título genérico
 
-O vídeo de ID `AtmJu3bV6q0` não apresentou um título identificável durante a organização. Ele foi exibido como:
+O vídeo de ID `AtmJu3bV6q0` permanece exibido como:
 
 **Aula Extra — Receita Especial**
 
@@ -59,9 +86,10 @@ Para alterar esse nome, procure pelo ID dentro do `index.html` e substitua apena
 No final do `index.html`, existe a constante JavaScript `modules`. Nela é possível alterar:
 
 - título da aula;
-- sabor;
+- sabor/tema;
 - categoria;
 - ID do vídeo do YouTube;
-- ordem das aulas e módulos.
+- ordem das aulas e módulos;
+- botão de oferta opcional por aula (`offer`).
 
 As cores principais ficam no começo do CSS, dentro do bloco `:root`.
