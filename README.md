@@ -33,6 +33,24 @@ Foram adicionadas **apresentações visuais de oferta** dentro do player, com co
 
 Esses cards aparecem apenas nas aulas que possuem uma oferta relacionada e foram pensados para melhorar a conversão pós-venda dentro da área de membros.
 
+## Nova oferta em todas as videoaulas — Recheios Gourmet Sem Fogo
+
+Foi acrescentada uma oferta visual **abaixo do player de todas as 27 videoaulas** para o produto **Recheios Gourmet Sem Fogo**.
+
+A apresentação inclui:
+
+- banner incorporado diretamente no `index.html`;
+- copy contextual para complementar o curso de Bolos Gelados Gourmet;
+- benefícios em destaque;
+- informação de **acesso imediato após a compra**;
+- informação de **garantia de 7 dias**;
+- botão direto para o checkout:
+  `https://pay.cakto.com.br/nmzjuv3_1031797`
+
+As ofertas específicas já existentes do **Pack de 30 Etiquetas Editáveis** e da **Calculadora Automática de Precificação e Lucro** foram mantidas nas respectivas aulas. Nessas aulas, a oferta de Recheios Gourmet Sem Fogo também aparece abaixo, como oferta complementar adicional.
+
+A imagem promocional foi incorporada em Base64 no próprio HTML, portanto não é necessária nenhuma pasta `assets`.
+
 ## O que está incluído
 
 - Visual premium escuro com detalhes em rosa e dourado.
@@ -93,3 +111,10 @@ No final do `index.html`, existe a constante JavaScript `modules`. Nela é poss�
 - botão de oferta opcional por aula (`offer`).
 
 As cores principais ficam no começo do CSS, dentro do bloco `:root`.
+
+
+## Correção da oferta de Recheios Gourmet Sem Fogo
+
+A oferta de **Recheios Gourmet Sem Fogo** agora aparece **somente nas aulas de receitas dos Módulos 1 a 4**.
+
+Ela **não aparece no Módulo 5 — Vendas, Embalagens e Negócio**. Assim, as aulas de embalagem/etiquetas e precificação continuam exibindo apenas suas ofertas específicas (Pack de 30 Etiquetas e Calculadora de Precificação), sem sobreposição da oferta de recheios.
