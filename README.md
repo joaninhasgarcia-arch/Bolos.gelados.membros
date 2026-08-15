@@ -23,15 +23,15 @@ A área agora contém **27 videoaulas distribuídas em 5 módulos**.
 
 ## Ofertas complementares dentro das aulas
 
-Foram adicionados botões contextuais dentro do player, sem alterar o visual principal da plataforma:
+Foram adicionadas **apresentações visuais de oferta** dentro do player, com copy, benefícios e botão de compra, sem alterar o estilo principal da plataforma:
 
-- Nas aulas relacionadas a **embalagem/etiquetas**, o botão oferece o **Pack de 30 Etiquetas Editáveis**:
+- Nas aulas relacionadas a **embalagem/etiquetas**, aparece um card promocional do **Pack de 30 Etiquetas Editáveis**:
   `https://pay.cakto.com.br/3atx3oo_1041160`
 
-- Na **Aula de Precificação**, o botão oferece a **Calculadora Automática de Precificação e Lucro**:
+- Na **Aula de Precificação**, aparece um card promocional da **Calculadora Automática de Precificação e Lucro**:
   `https://pay.cakto.com.br/ajhxeao_1039693`
 
-Os botões aparecem apenas nas aulas que possuem uma oferta relacionada.
+Esses cards aparecem apenas nas aulas que possuem uma oferta relacionada e foram pensados para melhorar a conversão pós-venda dentro da área de membros.
 
 ## O que está incluído
 
